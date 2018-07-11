@@ -1,0 +1,17 @@
+
+
+
+val= int(input("Enter your input number:"))
+    
+for a in range (val):
+    k=0   
+    print("\n")
+    while (k < a):
+        print("*" , end='')        
+        k = k+1
+for b in range(val-1):
+    j=val-2
+    print("\n")
+    while ( j>b ):
+        print("*",end='')
+        j=j-1
